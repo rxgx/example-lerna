@@ -1,5 +1,5 @@
 {
-  "name": "lerna-chopped",
+  "name": "example-lerna",
   "version": "1.0.0",
   "description": "An example of using Lerna to publish and deploy the Chopped web application.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rxgx/lerna-chopped.git"
+    "url": "git+https://github.com/rxgx/example-lerna.git"
   },
   "keywords": [
     "lerna",
@@ -25,9 +25,9 @@
   ],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "bugs": {
-    "url": "https://github.com/rxgx/lerna-chopped/issues"
+    "url": "https://github.com/rxgx/example-lerna/issues"
   },
-  "homepage": "https://github.com/rxgx/lerna-chopped#readme",
+  "homepage": "https://github.com/rxgx/example-lerna#readme",
   "license": "MIT",
   "dependencies": {
     "@chopped/button": "file:packages/button",

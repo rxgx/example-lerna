@@ -1,7 +1,9 @@
 version: '3'
 services:
   client:
-    image: "node:lts-alpine"
+    image: "node"
+    platform: wasi/wasm32
+    runtime: io.container.wasmedge.v1
     user: "node"
     working_dir: /home/node/app
     environment:
@@ -16,7 +18,9 @@ services:
       - "9229:9229"
     command: "npm run client"
   node:
-    image: "node:lts-alpine"
+    image: "node"
+    platform: wasi/wasm32
+    runtime: io.container.wasmedge.v1
     user: "node"
     working_dir: /home/node/app
     environment:
