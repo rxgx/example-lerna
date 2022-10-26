@@ -10,7 +10,7 @@
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT",
   "dependencies": {
-    "@chopped/ingredients": "file:../packages/ingredients",
+    "@chopped/ingredients": "*",
     "cors": "^2.8.5",
     "express": "^4.17.1"
   }

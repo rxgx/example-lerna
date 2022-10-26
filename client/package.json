@@ -11,10 +11,8 @@
   "keywords": [],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
   "license": "MIT",
-  "browserslist": [
-    "supports es6-module-dynamic-import and supports fetch"
-  ],
+  "browserslist": ["supports es6-module-dynamic-import and supports fetch"],
   "devDependencies": {
-    "@chopped/button-esm": "file:../packages/button-esm"
+    "@chopped/button-esm": "*"
   }
 }
