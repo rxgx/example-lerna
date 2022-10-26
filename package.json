@@ -30,10 +30,10 @@
   "homepage": "https://github.com/rxgx/example-lerna#readme",
   "license": "MIT",
   "dependencies": {
-    "@chopped/button": "file:packages/button",
-    "@chopped/client": "file:client",
-    "@chopped/ingredients": "file:packages/ingredients",
-    "@chopped/server": "file:server"
+    "@chopped/button": "*",
+    "@chopped/client": "*",
+    "@chopped/ingredients": "*",
+    "@chopped/server": "*"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
