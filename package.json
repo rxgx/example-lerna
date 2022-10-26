@@ -24,9 +24,6 @@
     "workspaces"
   ],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com/)",
-  "bugs": {
-    "url": "https://github.com/rxgx/example-lerna/issues"
-  },
   "homepage": "https://github.com/rxgx/example-lerna#readme",
   "license": "MIT",
   "dependencies": {
