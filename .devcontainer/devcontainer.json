@@ -1,8 +1,9 @@
 {
 	"name": "Node.js",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+ 	// "build": {
+ 	//	"dockerfile": "Dockerfile"
+ 	//},
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:1": {
 			"installZsh": "true",
@@ -13,9 +14,9 @@
 			"version": "lts"
 		},
 		"ghcr.io/devcontainers/features/git:1": {
-            "version": "latest",
-            "ppa": "false"
-        }
+			"version": "latest",
+			"ppa": "false"
+		}
 	},
 
 	// Configure tool-specific properties.
